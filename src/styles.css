@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Segoe UI';
+  src:   url('./assets/fonts/SegoeUI.ttf'),
+         url('./assets/fonts/Segoe UI Bold.ttf'),
+         url('./assets/fonts/Segoe UI Italic.ttf'),;
+}
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F5F5F5 ;
+}
+
+nav a:visited{
+  color: #000;
+}
+
+nav a{
+  text-decoration: none;
+}

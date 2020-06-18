@@ -1,0 +1,33 @@
+footer{
+  background-color: #131313;
+  width: 100%;
+  height: auto;
+
+  color: #fff;
+}
+
+
+.container-content{
+  width: 70%;
+  min-height: 230px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container-content nav{
+  padding: 20px 10px 10px 10px;
+  /* border: 1px solid blue; */
+}
+
+.container-extra{
+  width: 100%;
+  /* border-top: .1px solid rgba(165, 165, 165, 0.7); */
+  padding: 15px 20px;
+}
+
+.container-extra__content{
+  width: 70%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
