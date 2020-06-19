@@ -22,21 +22,22 @@ export class BannerComponent implements OnInit {
 
   play():void{
     let legendController: HTMLElement = document.getElementById('reproductor')
-    console.log(legendController);
+    // console.log(legendController);
+    // let reloj;
 
     if(this.index){
       this.index = false;
       legendController.innerHTML = '⏸';
-      // console.log('%cParar' , 'color: green;');
       this.reloj = setInterval(this.controlador, 10000);
+      console.log('%c¡El slider se esta reproduciendo!' , 'color: green;');
       return;
     }
 
     if(!this.index){
       this.index = true;
-      // console.log('%cReproducir' , 'color: green;');
       legendController.innerHTML = '▶';
-      clearTimeout(this.reloj);
+      clearInterval(this.reloj);
+      console.log('%c¡El slider esta pausado!' , 'color: orange;');
       return;
     }
 

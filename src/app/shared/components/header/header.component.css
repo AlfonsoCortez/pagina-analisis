@@ -19,6 +19,8 @@ header{
   justify-content: space-around;
 }
 
+
+
 nav:nth-of-type(2) a:hover {
   background-color: #F5F5F5 ;
 }
@@ -58,7 +60,7 @@ nav:nth-of-type(2) a{
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.active{
+.activo{
   /* background-color: #F5F5F5; */
   font-weight: bold;
 }
