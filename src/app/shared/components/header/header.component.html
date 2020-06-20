@@ -3,7 +3,13 @@
     <nav>
       <a href="">Logo</a>
     </nav>
-    <nav>
+
+    <div  id="contenedor-btnMenu" class="contenedor-btnMenu">
+      <span (click)="openMenu()"  id="menuButton">&#9776;</span>
+      <!-- <input type="checkbox" name="btnmenu"  (click)="openMenu()"> -->
+    </div>
+
+    <nav id="enlaces" class="uno">
       <a routerLink="">Inicio</a>
       <a routerLink="nosotros">Nosotros</a>
       <a routerLink="contacto">Contáctanos</a>
