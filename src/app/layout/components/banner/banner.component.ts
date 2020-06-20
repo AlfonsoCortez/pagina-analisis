@@ -22,8 +22,6 @@ export class BannerComponent implements OnInit {
 
   play():void{
     let legendController: HTMLElement = document.getElementById('reproductor')
-    // console.log(legendController);
-    // let reloj;
 
     if(this.index){
       this.index = false;
