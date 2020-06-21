@@ -120,7 +120,7 @@
 
   .section-main-container__content{
     /* border:1px solid #000; */
-    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
   .section-main-container__content h3{
     font-size: 15px;

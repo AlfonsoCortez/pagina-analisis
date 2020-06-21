@@ -73,7 +73,7 @@ nav:nth-of-type(2) a{
 
 @media screen and (max-width: 768px) {
   .contenedor{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
     justify-content: space-between;
   }
@@ -132,7 +132,7 @@ nav:nth-of-type(2) a{
   }
 
   .contenedor nav:nth-of-type(2) a:hover{
-    background-color: #F9F9F9 ;
+    background-color: #F9F9F9;
     border: none;
   }
 
