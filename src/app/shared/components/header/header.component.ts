@@ -37,4 +37,14 @@ export class HeaderComponent implements OnInit {
     }
 
   }
+
+  clickDetected(): void{
+    // console.log('%cFue detectado un clicke en un boton!', 'color: blue;')
+    if(this.toggle){
+      this.contenedorEnlaces.classList.remove('dos');
+      this.contenedorEnlaces.className = ('enlaces uno');
+      this.toggle = false;
+      return;
+    }
+  }
 }

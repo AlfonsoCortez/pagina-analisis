@@ -109,12 +109,32 @@
   }
 }
 
-/* ---- Responsive Design ---- */
+/* ------------------------------------------------ */
+              /* Responsive Desing */
+/* ------------------------------------------------ */
+
 
 @media screen and (max-width: 768px) {
   .slideshow-container {
-    height: 100%;
-    max-height: 60vh;
+    /* border: 3px solid red; */
+    /* height: 100%; */
+    width: 100%;
+    max-width: 768px;
+    overflow: hidden;
+    min-height: 70vh;
+  }
+  .slideshow-container .mySlides{
+    position: relative;
+    width: 100%;
+    /* max-width: 768px; */
+    min-height: 70vh;
+
+    left: -190px;
+  }
+  .slideshow-container .mySlides img{
+    min-width: 1200px;
+    height: 500px;
+
   }
 }
 
@@ -123,10 +143,18 @@
     height: 100%;
     max-height: 60vh;
   }
+    .slideshow-container .mySlides img{
+    min-width: 900px;
+    height: 500px;
+
+  }
 
   .mySlides img{
     position: static;
     min-height: 200%;
   }
+}
+
+@media screen and (max-width: 668px) {
 
 }

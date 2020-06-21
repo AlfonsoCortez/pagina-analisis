@@ -53,6 +53,8 @@ footer{
   }
 }
 
-@media screen and (max-width: 350px) {
-
+@media screen and (max-width: 668px) {
+  .container-extra__content{
+    width: 100%;
+  }
 }
