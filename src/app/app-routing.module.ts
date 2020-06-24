@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
-import { ContenedorComponent } from './contenedor/contenedor.component';
+// import { ContenedorComponent } from './contenedor/contenedor.component';
 
 const routes: Routes = [
   {
